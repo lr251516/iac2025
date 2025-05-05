@@ -1,0 +1,29 @@
+# Archivos de estado de Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Archivos de variables que pueden contener secretos
+*.tfvars
+*.tfvars.json
+
+# Archivos de log
+*.log
+
+# Archivos de respaldo de ejecuciones locales
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos de claves SSH
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
