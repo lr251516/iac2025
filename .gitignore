@@ -1,5 +1,7 @@
 # Archivos de estado de Terraform
 .terraform/
+terraform.tfstate
+terraform.tfstate.backup
 *.tfstate
 *.tfstate.*
 .terraform.lock.hcl
@@ -27,3 +29,4 @@ id_rsa.pub
 # Archivos específicos del sistema operativo
 .DS_Store
 Thumbs.db
+
