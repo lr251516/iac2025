@@ -56,7 +56,7 @@ El diagrama de infraestructura implementada muestra:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone <https://github.com/lr251516/iac2025.git>
 cd <IAC2025>
 ```
 
@@ -76,7 +76,7 @@ private_subnet_2_cidr = "10.0.4.0/24"
 db_instance_class     = "db.t3.micro"
 db_name               = "ecommerce"
 db_username           = "dbadmin"
-db_password           = "TuContraseñaSegura"
+db_password           = "SecurePassword"
 
 # Configuración de las instancias EC2
 instance_type         = "t2.micro"
