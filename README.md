@@ -164,7 +164,7 @@ http://[nlb_dns_name]
 - Desplegada en subredes privadas para mayor seguridad
 - Grupo de seguridad restrictivo que solo permite tráfico desde los servidores web
 
-### Balance de carga
+### Balanceador de carga
 - Network Load Balancer (NLB) distribuyendo tráfico entre instancias
 - Health checks a nivel TCP garantizando alta disponibilidad
 - Desplegado en subredes públicas
